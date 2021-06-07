@@ -11,19 +11,15 @@
 提示：定义两个字符数组ci和pl，分别存放密文字符串和明文字符串。解密过程即在字符串ci中，从下标0的字符（首字符）开始，将偶数下标的字符（’\0’之前的）依次取出赋值到字符数组pl中，最后即得到明文字符串。
 
 【输入形式】
-
 输入一行：密文字符串。
 
 【输出形式】
-
 输出有一行：翻译后的明文字符串。
 
 【样例输入】
-
 Coheifnia
 
 【样例输出】
-
 China
  */
 
@@ -31,11 +27,11 @@ China
 using namespace std;
 int  main(){
     string encode;
-    cin >> encode;
+    cin >> encode; //从标准输入获取需要解密的字符串
 
-    int len = encode.size();
-    for (int i = 0; i < len; i += 2) {
-        cout << (char) encode[i];
+    int len = encode.length(); //获取字符串长度
+    for (int i = 0; i < len; i += 2) { //遍历字符串
+        cout << (char) encode[i]; //每隔一个字符输出一个
     }
     return 0;
 }

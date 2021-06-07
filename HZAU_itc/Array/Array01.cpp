@@ -28,22 +28,22 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int count = 0;
-    int heights[10];
-    int height;
-    int totalHeight;
-    for (int i = 0; i < 10; ++i) {
+    int count = 0; //能够到的数目
+    int heights[10]; //苹果的高度数组
+    int height; //伸手能达到的高度
+    int totalHeight; //垫板凳加伸手能达到的总高度
+    for (int i = 0; i < 10; ++i) { //从标准输入读取苹果高度到数组
         cin >> heights[i];
     }
 
-    cin >> height;
-    totalHeight = height + 30;
+    cin >> height; //接受伸手能达到的高度
+    totalHeight = height + 30; //计算总高度
 
-    for (int i = 0; i < 10; ++i) {
-        if(heights[i] <= totalHeight){
+    for (int i = 0; i < 10; ++i) { //遍历数组
+        if(heights[i] <= totalHeight){ //如果能够到,记录数目
             count += 1;
         }
     }
 
-    cout << count << endl;
+    cout << count << endl; //输出执行结果
 }
