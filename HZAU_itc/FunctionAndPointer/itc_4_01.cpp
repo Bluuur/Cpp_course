@@ -29,12 +29,11 @@ using namespace std;
 bool judge(int n){
     int sum = 0;
     int init = n;
-    while (n != 1){
-        for (int i = 1; i < n; ++i) {
-            if(n % i == 0){
-               sum += i;
-               n /= i;
-            }
+    for (int i = 1; i < n; ++i) {
+        if(n % i == 0){
+           sum += i;
+//           cout << "i=" << i << endl;
+//           cout << "n=" << n << "    " << "sum=" << sum << endl;
         }
     }
 
@@ -48,6 +47,7 @@ bool judge(int n){
 int main(){
     int n;
     cin >> n;
+//    cout << "n=" << n <<endl;
     if(judge(n)){
         cout << "yes" << endl;
     } else{
