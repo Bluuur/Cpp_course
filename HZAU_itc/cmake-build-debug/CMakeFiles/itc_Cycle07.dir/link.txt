@@ -1,3 +1,0 @@
-"D:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\itc_Cycle07.dir/objects.a
-"D:\Program Files\mingw64\bin\ar.exe" cr CMakeFiles\itc_Cycle07.dir/objects.a @CMakeFiles\itc_Cycle07.dir\objects1.rsp
-"D:\Program Files\mingw64\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\itc_Cycle07.dir/objects.a -Wl,--no-whole-archive -o itc_Cycle07.exe -Wl,--out-implib,libitc_Cycle07.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\itc_Cycle07.dir\linklibs.rsp

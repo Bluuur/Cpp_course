@@ -1,3 +1,0 @@
-"D:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\mooc_chap4_01.dir/objects.a
-"D:\Program Files\mingw64\bin\ar.exe" cr CMakeFiles\mooc_chap4_01.dir/objects.a @CMakeFiles\mooc_chap4_01.dir\objects1.rsp
-"D:\Program Files\mingw64\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\mooc_chap4_01.dir/objects.a -Wl,--no-whole-archive -o mooc_chap4_01.exe -Wl,--out-implib,libmooc_chap4_01.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\mooc_chap4_01.dir\linklibs.rsp
