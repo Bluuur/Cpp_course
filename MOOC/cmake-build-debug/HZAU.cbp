@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="HZAU"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mooc_chap4_01">
+				<Option output="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/mooc_chap4_01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 mooc_chap4_01"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mooc_chap4_01/fast">
+				<Option output="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/mooc_chap4_01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 mooc_chap4_01/fast"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mooc_chap4_02">
+				<Option output="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/mooc_chap4_02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 mooc_chap4_02"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mooc_chap4_02/fast">
+				<Option output="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/mooc_chap4_02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 mooc_chap4_02/fast"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test01">
+				<Option output="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/test01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 test01"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test01/fast">
+				<Option output="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/test01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 test01/fast"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mooc_chap4_03">
+				<Option output="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/mooc_chap4_03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 mooc_chap4_03"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mooc_chap4_03/fast">
+				<Option output="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/mooc_chap4_03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 mooc_chap4_03/fast"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mooc_chap4_04">
+				<Option output="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/mooc_chap4_04.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 mooc_chap4_04"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mooc_chap4_04/fast">
+				<Option output="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/mooc_chap4_04.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 mooc_chap4_04/fast"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/program/C++Learning/HZAU/MOOC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/program/C++Learning/HZAU/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/program/C++Learning/HZAU/MOOC/MoocChap4_01.cpp">
+			<Option target="mooc_chap4_01"/>
+		</Unit>
+		<Unit filename="D:/program/C++Learning/HZAU/MOOC/MoocChap4_02.cpp">
+			<Option target="mooc_chap4_02"/>
+		</Unit>
+		<Unit filename="D:/program/C++Learning/HZAU/MOOC/MoocChap4_03.cpp">
+			<Option target="mooc_chap4_03"/>
+		</Unit>
+		<Unit filename="D:/program/C++Learning/HZAU/MOOC/MoocChap4_04.cpp">
+			<Option target="mooc_chap4_04"/>
+		</Unit>
+		<Unit filename="D:/program/C++Learning/HZAU/MOOC/test.cpp">
+			<Option target="test01"/>
+		</Unit>
+		<Unit filename="D:/program/C++Learning/HZAU/MOOC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
