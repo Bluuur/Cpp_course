@@ -14,7 +14,6 @@ using namespace std;
 int main() {
     string strA;
     string strB;
-    string strC;
 
     cin >> strA;
     cin >> strB;
@@ -22,26 +21,25 @@ int main() {
     int lenA = strA.length();
     int lenB = strB.length();
 
-    if (lenB < lenA) {
+    if(lenB < lenA){
+        char strC[lenA];
         for (int i = 0; i < lenB; ++i) {
-            for (int j = 0; j < lenA; ++j) {
-                strA[i] < strB[i] ? strC[i] = strB[i] : strC[i] = strA[i];
-            }
+            strA[i] > strB[i] ? strC[i] = strA[i]: strC[i] = strB[i];
         }
-
-        for (int i = lenB; i < lenB; ++i) {
+        for(int i = lenA; i < lenB; i++){
             strC[i] = strA[i];
         }
+        cout << strC;
         return 0;
     }
 
+    char strC[lenB];
     for (int i = 0; i < lenA; ++i) {
-        for (int j = 0; j < lenB; ++j) {
-            strA[i] < strB[i] ? strC[i] = strB[i] : strC[i] = strA[i];
-        }
+        strA[i] > strB[i] ? strC[i] = strA[i]: strC[i] = strB[i];
     }
-    for (int i = lenB; i < lenB; ++i) {
-        strC[i] = strA[i];
+    for(int i = lenA; i < lenB; i++){
+        strC[i] = strB[i];
     }
+    cout << strC;
     return 0;
 }
