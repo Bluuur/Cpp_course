@@ -43,3 +43,5 @@ add_executable(itc_4_10 HZAU_itc/FunctionAndPointer/itc_4_10.cpp)
 add_executable(chap5_01 MOOC/chap5/chap5_01.cpp)
 add_executable(chap5_02 MOOC/chap5/chap5_02.cpp)
 add_executable(chap5_03 MOOC/chap5/chap5_03.cpp)
+
+add_executable(chap6_01 MOOC/chap6/chap6_01.cpp)
