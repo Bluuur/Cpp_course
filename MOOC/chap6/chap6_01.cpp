@@ -31,6 +31,6 @@ int main() {
     return 0;
 }
 
-doubel avg(double scoreOne, double scoreTwo, double scoreThree) {
+double avg(double scoreOne, double scoreTwo, double scoreThree) {
     return (scoreOne + scoreTwo + scoreThree) / 3;
 }
