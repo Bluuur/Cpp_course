@@ -10,27 +10,78 @@
  */
 
 
-#include "iostream"
+#include<iostream>
 
 using namespace std;
 
-double avg(double scoreOne, double scoreTwo, double scoreThree);
+class Time {
+
+public:
+
+    Time() {
+
+        h = 0;
+        m = 0;
+        s = 0;
+
+        cout << "构造Time对象：" << h << ' ' << m << ' ' << s << ' ' << endl;
+
+    }
+
+    Time(int H, int M, int S) {
+
+        h = H;
+        m = M;
+        s = S;
+
+        cout << "构造Time对象：" << h << ' ' << m << ' ' << s << endl;
+
+    }
+
+    void Show() {
+
+        cout << h << "时" << m << "分" << s << "秒" << endl;
+
+    }
+
+    void AddMinute(int m1) {
+
+        m = m + m1;
+
+        h = h + m / 60;
+
+        if (h > 23) {
+
+            h = h - 24;
+        }
+
+        m = m % 60;
+
+    }
+
+    Time() {
+
+
+    }
+
+private:
+
+    int h, m, s;
+
+};
+
 
 int main() {
-    double scoreOne;
-    double scoreTwo;
-    double scoreThree;
 
-    cout << "enter your scores:" << endl;
-    cin >> scoreOne;
-    cin >> scoreTwo;
-    cin >> scoreThree;
+    Time t1, t2(22, 30, 2);
 
-    cout << "your average score is :" << avg(scoreOne, scoreTwo, scoreThree) << endl;
+    t1.Show();
+    t2.Show();
+
+    t2.AddMinute(100);//将时间t2增加100分钟
+
+    t2.Show();
 
     return 0;
-}
 
-double avg(double scoreOne, double scoreTwo, double scoreThree) {
-    return (scoreOne + scoreTwo + scoreThree) / 3;
 }
