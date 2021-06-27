@@ -45,3 +45,5 @@ add_executable(chap5_02 MOOC/chap5/chap5_02.cpp)
 add_executable(chap5_03 MOOC/chap5/chap5_03.cpp)
 
 add_executable(chap6_01 MOOC/chap6/chap6_01.cpp)
+
+add_executable(itc_5_01 HZAU_itc/ClassAndObject/itc_5_01.cpp)
